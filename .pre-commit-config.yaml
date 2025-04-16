@@ -1,0 +1,6 @@
+# .pre-commit-config.yaml
+- repo: https://github.com/errata-ai/vale
+  rev: v2.29.0  # use latest version at https://github.com/errata-ai/vale/releases
+  hooks:
+    - id: vale
+      files: \.(md|txt|rst)$
